@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
+import MenuBar from './MenuBar';
+import SearchBar from './SearchBar';
 
-class foodTracker extends Component {
+class FoodTracker extends Component {
     render() { 
         return (
             <div>
-                Food Tracker
+                <MenuBar status={1} firstname='Engy' />
+                <SearchBar />
             </div>
         );
     }
 }
  
-export default foodTracker;
+export default FoodTracker;
