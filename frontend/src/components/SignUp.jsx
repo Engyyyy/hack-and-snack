@@ -78,7 +78,7 @@ class SignUp extends Component {
                         value={this.state.birthday}
                         onChange={(event) => this.setState({birthday: event.target.value})} />
                     </div>
-                    <input type="submit"/>
+                    <input type="submit" value="sign up"/>
                 </form>
             </div>
         );
